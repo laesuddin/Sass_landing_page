@@ -1,9 +1,7 @@
-import React from 'react'
+import Navbar from "@/sections/Navbar";
 
 const page = () => {
-  return (
-    <div>page</div>
-  )
-}
+  return <><Navbar /></>;
+};
 
-export default page
+export default page;
