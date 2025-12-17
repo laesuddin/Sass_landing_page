@@ -6,7 +6,7 @@ export default function Hero() {
   return (
     <section className="py-24 overflow-x-clip">
       <div className="container mx-auto px-4 relative">
-        <div className="absolute -left-32 top-4 hidden lg:block">
+        <div className="absolute -left-32 top-16 hidden lg:block">
           <Image src={design1Image} alt="Design example 1 image" />
         </div>
         <div className="absolute -right-64 -top-16 hidden lg:block">
