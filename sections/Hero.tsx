@@ -7,10 +7,10 @@ export default function Hero() {
     <section className="py-24 overflow-x-clip">
       <div className="container mx-auto px-4 relative">
 
-        <div className="absolute -left-32 top-16 hidden lg:block">
+        <div className="absolute -left-32 top-4 hidden lg:block">
             <Image src={design1Image} alt="Design example 1 image"/>
         </div>
-        <div className="absolute -right-64 top-16 hidden lg:block">
+        <div className="absolute -right-64 -top-16 hidden lg:block">
             <Image src={design2Image} alt="Design example 2 image"/>
         </div>
 
@@ -29,10 +29,13 @@ export default function Hero() {
         <h1 className="text-6xl md:text-7xl lg:text-8xl font-medium text-center mt-6">
           Impactful design, created effortlessly
         </h1>
-        <p className="text-center text-xl text-white/50 mt-8 max-w-2xl">
-          Design tools shouldn&apos;t slow you down. Layers combines powerful
-          features with an intuitive that keeps you in your creative flow.
-        </p>
+    <div className="flex justify-center items-center mt-10">
+  <p className="text-center text-xl text-white/70 max-w-2xl">
+    Design tools shouldn&apos;t slow you down. Layers combines powerful
+    features with an intuitive interface that keeps you in your creative flow.
+  </p>
+</div>
+
         <form
           action=""
           className="flex border border-white/15 rounded-full p-2 mt-8 md:max-w-lg mx-auto"
