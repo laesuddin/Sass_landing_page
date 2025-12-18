@@ -5,6 +5,7 @@ import Introduction from "@/sections/Introduction";
 import Features from "@/sections/Features";
 import Integrations from "@/sections/Integrations";
 import Faqs from "@/sections/Faqs";
+import CallToAction from "@/sections/CallToAction";
 
 const page = () => {
   return (
@@ -15,7 +16,8 @@ const page = () => {
       <Introduction />
       <Features />
       <Integrations />
-      <Faqs />
+      <Faqs />   
+      <CallToAction />
     </>
   );
 };
