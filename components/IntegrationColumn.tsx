@@ -1,12 +1,14 @@
 import { type IntegrationsType } from "@/sections/Integrations";
 import Image from "next/image";
+import { twMerge } from "tailwind-merge";
 
 export default function IntegrationColumn(props: {
   integrations: IntegrationsType;
+  className?: string;
 }) {
-    const {integrations} = props;
+    const {integrations, className} = props;
   return (
-    <div className="flex flex-col gap-4 pb-4">
+    <div className={twMerge("flex flex-col gap-4 pb-4", className)}>
       {integrations.map((integration) => (
         <div
           key={integration.name}
